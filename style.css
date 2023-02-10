@@ -50,7 +50,6 @@ body {
 
 .our-partners {
     display: flex;
-    /* grid-template-columns: repeat(2. 1fr); */
     justify-content: space-between;
     align-items: center;
     margin: 50px 165px;
@@ -155,4 +154,51 @@ p {
 .social-icon,
 .fa-brands {
     padding: 16px;
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        flex-direction: column-reverse;
+        width: 80%;
+        margin-left: 20%;
+        margin-right: 10%;
+
+    }
+
+    .header-content {
+        width: 90%;
+    }
+
+    .header-content h1 {
+        font-size: 28px;
+        width: 90%;
+    }
+
+    .header-content img {
+        width: 257px;
+        height: 257px;
+
+    }
+
+    .popular-collection {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-product {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .product {
+        width: 80%;
+    }
+
+    .product img {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .our-partners {
+        display: none;
+    }
 }
