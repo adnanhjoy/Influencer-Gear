@@ -202,3 +202,55 @@ p {
         display: none;
     }
 }
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .header {
+        width: 80%;
+        margin-left: 10%;
+
+    }
+
+    .header-content {
+        width: 90%;
+        margin: auto;
+    }
+
+    .header-content h1 {
+        font-size: 28px;
+        width: 90%;
+    }
+
+    .header-content img {
+        width: 257px;
+        height: 257px;
+
+    }
+
+    .popular-collection {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .article-img img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .feature-product {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .product {
+        width: 80%;
+    }
+
+    .product img {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .our-partners {
+        display: none;
+    }
+}
